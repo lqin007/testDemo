@@ -1,0 +1,138 @@
+{
+  "uid" : "f5c590be2a7a3c9b",
+  "name" : "test_mul[zero_mul]",
+  "fullName" : "test_caculate.TestCaculate#test_mul",
+  "historyId" : "72cd6431c023624af068e3a0c4d7eb4d",
+  "time" : {
+    "start" : 1617694454767,
+    "stop" : 1617694454770,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cal",
+    "time" : {
+      "start" : 1617694454113,
+      "stop" : 1617694454113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "乘法计算结果",
+      "time" : {
+        "start" : 1617694454768,
+        "stop" : 1617694454768,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "乘法断言结果",
+      "time" : {
+        "start" : 1617694454769,
+        "stop" : 1617694454770,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "cal::0",
+    "time" : {
+      "start" : 1617694454958,
+      "stop" : 1617694454959,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器"
+  }, {
+    "name" : "story",
+    "value" : "计算器乘法"
+  }, {
+    "name" : "suite",
+    "value" : "test_caculate"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-53C5DJ5K"
+  }, {
+    "name" : "thread",
+    "value" : "97772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "5"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  }, {
+    "name" : "result",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5c590be2a7a3c9b.json",
+  "parameterValues" : [ "5", "0", "0" ]
+}

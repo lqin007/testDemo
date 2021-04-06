@@ -1,0 +1,103 @@
+add:
+    data:
+        -
+            - 1
+            - 2
+            - 3
+        -
+            - 1.11
+            - 2.22
+            - 3.33
+        -
+            - -1
+            - -2
+            - -3
+        -
+            - 'a'
+            - 'b'
+            - 'a+b'
+    name:
+        - int_add
+        - float_add
+        - negative_add
+        - string_add
+sub:
+    data:
+        -
+            - 3
+            - 2
+            - 1
+        -
+            - 9.99
+            - 8.88
+            - 1.11
+        -
+            - -1
+            - -2
+            - 1
+        -
+            - 'a'
+            - 'b'
+            - 'a-b'
+    name:
+        - int_sub
+        - float_sub
+        - negative_sub
+        - string_sub
+mul:
+    data:
+        -
+            - 1
+            - 2
+            - 2
+        -
+            - 1.11
+            - 2.22
+            - 2.4642
+        -
+            - -1
+            - -2
+            - 2
+        -
+            - 'a'
+            - 'b'
+            - 'a*b'
+        -
+            - 5
+            - 0
+            - 0
+    name:
+        - int_mul
+        - float_mul
+        - negative_mul
+        - string_mul
+        - zero_mul
+
+div:
+    data:
+        -
+            - 4
+            - 2
+            - 2
+        -
+            - 6.66
+            - 3.33
+            - 2
+        -
+            - 2
+            - 0
+            - 0
+        -
+            - -6
+            - -3
+            - 2
+        -
+            - 'a'
+            - 'b'
+            - 'a/b'
+    name:
+        - int_div
+        - float_div
+        - zero_div
+        - negative_div
+        - string_div

@@ -1,0 +1,148 @@
+{
+  "uid" : "1dcce6d0f17fbf83",
+  "name" : "test_div[zero_div]",
+  "fullName" : "test_caculate.TestCaculate#test_div",
+  "historyId" : "bc643f8b4d99928cec3c5efae0a95601",
+  "time" : {
+    "start" : 1617694454847,
+    "stop" : 1617694454849,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None == 0\n  +None\n  -0",
+  "statusTrace" : "self = <caculatePractice.test_caculate.TestCaculate object at 0x000001D1B3271BB0>, cal = <caculatePractice.caculate.Caculate object at 0x000001D1B31B7220>, a = 2\nb = 0, result = 0\n\n    @pytest.mark.parametrize('a,b,result', data['div']['data'], ids=data['div']['name'])\n    @allure.story(\"计算器除法\")\n    def test_div(self, cal, a, b, result):\n        with allure.step(\"除法计算结果\"):\n            expect = cal.division(a, b)\n            print(expect)\n        with allure.step(\"除法断言结果\"):\n>           assert expect == result\nE           assert None == 0\nE             +None\nE             -0\n\ntest_caculate.py:45: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cal",
+    "time" : {
+      "start" : 1617694454113,
+      "stop" : 1617694454113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert None == 0\n  +None\n  -0",
+    "statusTrace" : "self = <caculatePractice.test_caculate.TestCaculate object at 0x000001D1B3271BB0>, cal = <caculatePractice.caculate.Caculate object at 0x000001D1B31B7220>, a = 2\nb = 0, result = 0\n\n    @pytest.mark.parametrize('a,b,result', data['div']['data'], ids=data['div']['name'])\n    @allure.story(\"计算器除法\")\n    def test_div(self, cal, a, b, result):\n        with allure.step(\"除法计算结果\"):\n            expect = cal.division(a, b)\n            print(expect)\n        with allure.step(\"除法断言结果\"):\n>           assert expect == result\nE           assert None == 0\nE             +None\nE             -0\n\ntest_caculate.py:45: AssertionError",
+    "steps" : [ {
+      "name" : "除法计算结果",
+      "time" : {
+        "start" : 1617694454847,
+        "stop" : 1617694454848,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "除法断言结果",
+      "time" : {
+        "start" : 1617694454848,
+        "stop" : 1617694454848,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert None == 0\n  +None\n  -0\n",
+      "statusTrace" : "  File \"D:\\Program Files\\PycharmProjects\\pythonProject\\PythonPractice\\caculatePractice\\test_caculate.py\", line 45, in test_div\n    assert expect == result\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "cal::0",
+    "time" : {
+      "start" : 1617694454958,
+      "stop" : 1617694454959,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器"
+  }, {
+    "name" : "story",
+    "value" : "计算器除法"
+  }, {
+    "name" : "suite",
+    "value" : "test_caculate"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-53C5DJ5K"
+  }, {
+    "name" : "thread",
+    "value" : "97772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  }, {
+    "name" : "result",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1dcce6d0f17fbf83.json",
+  "parameterValues" : [ "2", "0", "0" ]
+}

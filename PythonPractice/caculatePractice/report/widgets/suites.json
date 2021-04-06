@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "287fec64e9ab968e276663a84d463d91",
+    "name" : "test_caculate",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 18
+    }
+  } ]
+}

@@ -1,0 +1,138 @@
+{
+  "uid" : "9055b816547d05f8",
+  "name" : "test_sub[float_sub]",
+  "fullName" : "test_caculate.TestCaculate#test_sub",
+  "historyId" : "e4fb1ccd7abfe3a1b55399b2c22e0a87",
+  "time" : {
+    "start" : 1617694454544,
+    "stop" : 1617694454544,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cal",
+    "time" : {
+      "start" : 1617694454113,
+      "stop" : 1617694454113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "减法计算结果",
+      "time" : {
+        "start" : 1617694454544,
+        "stop" : 1617694454544,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "减法断言结果",
+      "time" : {
+        "start" : 1617694454544,
+        "stop" : 1617694454544,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "cal::0",
+    "time" : {
+      "start" : 1617694454958,
+      "stop" : 1617694454959,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "计算器"
+  }, {
+    "name" : "story",
+    "value" : "计算器减法"
+  }, {
+    "name" : "suite",
+    "value" : "test_caculate"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-53C5DJ5K"
+  }, {
+    "name" : "thread",
+    "value" : "97772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "9.99"
+  }, {
+    "name" : "b",
+    "value" : "8.88"
+  }, {
+    "name" : "result",
+    "value" : "1.11"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9055b816547d05f8.json",
+  "parameterValues" : [ "9.99", "8.88", "1.11" ]
+}
